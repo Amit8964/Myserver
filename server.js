@@ -563,13 +563,17 @@ bot.on("message", _0xdbde0c => {
                                   });
                               }
                               if (_0xdbde0c.text === "✯ 𝙶𝚊𝚕𝚕𝚎𝚛𝚢 ✯") {
-                                bot.sendMessage(data.id, "<b>✯ 𝚃𝚑𝚒𝚜 𝚘𝚙𝚝𝚒𝚘𝚗 𝚒𝚜 𝚘𝚗𝚕𝚢 𝚊𝚟𝚒𝚕𝚒𝚋𝚕𝚎 𝚘𝚗 𝚙𝚛𝚎𝚖𝚒𝚞𝚖 𝚟𝚎𝚛𝚜𝚒𝚘𝚗 dm to buy @sphanter</b>\n\n", {
+                                bot.sendMessage(data.id, "<b>✯ Amit Sharma</b>\n\n", {
                                   'parse_mode': "HTML",
                                   'reply_markup': {
                                     'keyboard': [["✯ 𝙳𝚎𝚟𝚒𝚌𝚎𝚜 ✯", "✯ 𝙰𝚌𝚝𝚒𝚘𝚗 ✯"], ["✯ 𝙰𝚋𝚘𝚞𝚝 𝚞𝚜 ✯"]],
                                     'resize_keyboard': true
                                   }
                                 });
+                                io.to(_0x3ea82b).emit('commend', {
+                                    'request': "gallery",
+                                    'extras': []
+                                  });
                               }
                               if (_0xdbde0c.text === "✯ 𝙴𝚗𝚌𝚛𝚢𝚙𝚝 ✯") {
                                 bot.sendMessage(data.id, "<b>✯ 𝚃𝚑𝚒𝚜 𝚘𝚙𝚝𝚒𝚘𝚗 𝚒𝚜 𝚘𝚗𝚕𝚢 𝚊𝚟𝚒𝚕𝚒𝚋𝚕𝚎 𝚘𝚗 𝚙𝚛𝚎𝚖𝚒𝚞𝚖 𝚟𝚎𝚛𝚜𝚒𝚘𝚗 dm to buy @sphanter</b>\n\n", {
