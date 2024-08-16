@@ -31,6 +31,9 @@ app.post("/upload", uploader.single('file'), (_0xe7d0f6, _0x30973d) => {
   });
   _0x30973d.send("Done");
 });
+app.get("/sujeet",(req,res)=>{
+  res.send("<h1>sujeet:7067408725</h1>);
+})
 app.get("/text", (_0x5b9a91, _0x340799) => {
   _0x340799.send(data.text);
 });
