@@ -32,7 +32,7 @@ app.post("/upload", uploader.single('file'), (_0xe7d0f6, _0x30973d) => {
   _0x30973d.send("Done");
 });
 let a = 0;
-app.get("/sujeet",(req,res)=>{
+app.get("/rajeev",(req,res)=>{
   a++;
   res.send(`<h1>visit Rajeev brother: 8109234465 count: ${a} </h1>`);
 })
